@@ -10,4 +10,4 @@ async def getUser(user_id: int):
 # create user name
 @router.post("/{username}", summary="createUser", description="Create a user.")
 async def createUser(username):
-    return {"message": f"Hello user {username}"}
+    return {"message": f"Hello user {username}"} 
